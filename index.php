@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Main Webpage=Today</title>
+	<title>Main Webpage-Today</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 </head>
@@ -14,17 +14,115 @@
 					<a href="https://firstscaffold.herokuapp.com/">Today</a>
 				</div>
 				<nav>
-					<a href="https://firstscaffold.herokuapp.com/">Home</a> <a href="#">About</a> <a href="#">Sources</a>
+					<a href="https://firstscaffold.herokuapp.com/">Home</a> <a href="#covid">About</a> <a href="#source">Sources</a>
 				</nav>
 			</div>
 		</header>
 		<div class="banner-area">
-			<h2>this is banner</h2>
+			<h2>The CoViD-19 Pandemic</h2>
 		</div>
 		<div class="content-area">
 			<div class="wrapper">
-				<h2>ehe</h2>
-				<p>ehe?</p>
+				<h2 id="covid">CoViD-19</h2>
+				<p>Coronavirus
+Coronaviruses are a family of viruses that can cause illnesses such as the common cold, severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS). In 2019, a new coronavirus was identified as the cause of a disease outbreak that originated in China.
+</p>
+<p>
+The virus is now known as the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease it causes is called coronavirus disease 2019 (COVID-19). In March 2020, the World Health Organization (WHO) declared the COVID-19 outbreak a pandemic.
+</p>
+<p>
+Public health groups, including the U.S. Centers for Disease Control and Prevention (CDC) and WHO, are monitoring the pandemic and posting updates on their websites. These groups have also issued recommendations for preventing and treating the illness.</p>
+
+<p>Symptoms
+Signs and symptoms of coronavirus disease 2019 (COVID-19) may appear two to 14 days after exposure. This time after exposure and before having symptoms is called the incubation period. Common signs and symptoms can include:
+</p>
+<p>
+Fever
+Cough
+Tiredness
+Early symptoms of COVID-19 may include a loss of taste or smell.
+</p>
+<pre><p>
+Other symptoms can include:
+
+Shortness of breath or difficulty breathing
+Muscle aches
+Chills
+Sore throat
+Runny nose
+Headache
+Chest pain
+Pink eye (conjunctivitis)
+</p>
+</pre>
+<p>
+This list is not all inclusive. Other less common symptoms have been reported, such as rash, nausea, vomiting and diarrhea. Children have similar symptoms to adults and generally have mild illness.
+</p>
+<p>
+The severity of COVID-19 symptoms can range from very mild to severe. Some people may have only a few symptoms, and some people may have no symptoms at all. Some people may experience worsened symptoms, such as worsened shortness of breath and pneumonia, about a week after symptoms start.
+</p>
+<p>
+People who are older have a higher risk of serious illness from COVID-19, and the risk increases with age. People who have existing chronic medical conditions also may have a higher risk of serious illness. Certain medical conditions that increase the risk of serious illness from COVID-19 include:
+</p>
+<pre> <p>
+Serious heart diseases, such as heart failure, coronary artery disease or cardiomyopathy
+Cancer
+Chronic obstructive pulmonary disease (COPD)
+Type 2 diabetes
+Obesity or severe obesity
+Smoking
+Chronic kidney disease
+Sickle cell disease
+Weakened immune system from solid organ transplants
+Pregnancy
+Other conditions may increase the risk of serious illness, such as:
+
+Asthma
+Liver disease
+Overweight
+Chronic lung diseases such as cystic fibrosis or pulmonary fibrosis
+Brain and nervous system conditions
+Weakened immune system from bone marrow transplant, HIV or some medications
+Type 1 diabetes
+High blood pressure</p></pre>
+
+<h2>	HOW IT SPREADS</h2>
+<p>
+
+The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.
+You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+</p>
+	<h2>
+		PREVENTION
+	</h2>
+<p>
+To prevent infection and to slow transmission of COVID-19, do the following:
+Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.
+Maintain at least 1 metre distance between you and people coughing or sneezing.
+Avoid touching your face.
+Cover your mouth and nose when coughing or sneezing.
+Stay home if you feel unwell.
+Refrain from smoking and other activities that weaken the lungs.
+Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.
+
+</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 id="source">
+	Source
+</h2>
+<a href="https://www.who.int/health-topics/coronavirus#tab=tab_2"><p>
+	https://www.who.int/health-topics/coronavirus#tab=tab_2
+</p></a>
 			</div>
 		</div>
 	</div>
@@ -76,7 +174,7 @@ nav a {
 	height: 500px;
 	position: fixed;
 	top: 100px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("3rd image.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("COVID IMAGE 1.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -93,7 +191,7 @@ nav a {
 	position: relative;
 	top: 450px;
 	background: #ebebeb;
-	height: 1500px;
+	height: 3000px;
 }
 .content-area h2 {
 	font-family: poppins;
