@@ -108,15 +108,6 @@ Practice physical distancing by avoiding unnecessary travel and staying away fro
 </p>
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <h2 id="source">
 	Source
 </h2>
@@ -187,7 +178,7 @@ nav a {
 	color: #fff;
 }
 .content-area {
-	width: 100%;
+	width: 120%;
 	position: relative;
 	top: 450px;
 	background: #ebebeb;
